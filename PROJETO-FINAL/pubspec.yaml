@@ -1,0 +1,21 @@
+name: analisador_texto
+description: Aplicativo Analisador de Texto
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.19.0 # Para formatação de datas
+  mask_text_input_formatter: ^2.5.0 # Para máscara de CPF
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
